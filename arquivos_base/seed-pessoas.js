@@ -2,14 +2,6 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
 		return queryInterface.bulkInsert('Pessoas', [
 			{
-				nome:'Gabriel Barros',
-				ativo: true,
-				email: 'gabriel@gabriel.com',
-				role: 'estudante',
-				createdAt: '2022-12-20 20:50:35',
-				updatedAt: '2022-12-20 20:50:35'
-			},
-			{
 				nome: 'Ana Souza',
 				ativo: true,
 				email: 'ana@ana.com',
